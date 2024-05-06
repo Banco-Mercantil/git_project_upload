@@ -7,11 +7,11 @@ O real objetivo deste trabalho é demonstrar, passo a passo, como realizar o upg
 
 Para iniciar, a título de segurança, iremos copiar o projeto que desejamos para nossa repartição de disco ``C:\``.
 
-Na sequência, para migrar um projeto DBT já existente no GitHub, precisamos verificar se o projeto já possui a pasta ``.git``.
+Na sequência, para migrar um projeto *DBT*, já existente, no GitHub, precisamos verificar se o projeto já possui a pasta ``.git``.
 
-O diretório Git é onde o Git armazena os metadados e o banco de dados de objetos de seu projeto e é copiado quando você clona um repositório de outro computador. O diretório de trabalho é uma simples cópia de uma versão do projeto. Esses arquivos são pegos do banco de dados compactado no diretório Git e colocados no disco para você usar ou modificar.
+O diretório Git é onde o Git armazena os metadados e o banco de dados de objetos de seu projeto, ele é copiado quando você clona um repositório de outro computador.
 
-Para veririfcar a existencia da pasta ``.git`` no projeto, vamos abri-ló no próprio *explorador de arquivos*. Caso o diretório Git não esteja visível, verique se ele não está oculto na pasta. Acesse o *Visualizar*, no menu superior, clique em *Mostrar* e marque a opção *itens ocultos*.
+Para verificar a existencia da pasta ``.git`` no projeto, vamos abri-ló no próprio *explorador de arquivos*. Caso o diretório Git não esteja visível, verique se ele está oculto na pasta. Acesse o *Visualizar*, no menu superior, clique em *Mostrar* e marque a opção *itens ocultos*.
 
 <img width="928" alt="image" src="https://github.com/Banco-Mercantil/git_project_upload/assets/88452990/c9e369eb-0896-4578-8133-952080aa87c7">
 
@@ -64,7 +64,7 @@ Cole a url com o seguinte comando para adicionar um novo repositório remoto:
 
 ``git remote add origin url_https``
 
-Na sequência, dê o comando ``push``, junto à url, para empurrar o projeto para o repositório no GitHub:
+Na sequência, dê o comando ``push``, junto a url, para empurrar o projeto para o repositório no GitHub:
 
 ``git push url_https main -f``
 
