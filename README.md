@@ -1,6 +1,6 @@
 ## Carregar projeto DBT no GitHub:
 
-O real objetivo deste trabalho é demonstrar, passo a passo, como realizar o upgrade de um projeto *DBT* já existente no repositório do GitHub.
+O real objetivo deste trabalho é demonstrar, passo a passo, como realizar o upgrade de um projeto *DBT*, já existente, no repositório do GitHub.
 
 
 ## 🚀 Inicializando o projeto:
